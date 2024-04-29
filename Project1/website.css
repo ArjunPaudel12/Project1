@@ -1,0 +1,392 @@
+html{
+    scroll-behavior: smooth;
+}
+
+main {
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp5626330.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    /* background-color: none; */
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -15px;
+
+}
+
+p {
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-top: -35px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+button {
+    text-align: center;
+}
+
+.first {
+    margin-top: 100px;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgba(129, 235, 30, 0.572);
+    background-color: aliceblue;
+    border-color: white;
+    margin-left: 45%;
+}
+
+.second {
+    margin-top: 100px;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgba(237, 242, 234, 0.881);
+    background-color: rgba(106, 200, 18, 0.368);
+    border-color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h4 {
+    color: rgba(73, 171, 28, 0.965);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -40px;
+
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.paragraph-one {
+    font-size: larger;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: black;
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-left: 18%;
+}
+
+.head-one {
+    color: rgba(73, 171, 28, 0.965);
+    margin-left: 20%;
+    margin-top: -30%;
+}
+
+.paragraph-two {
+    font-size: xx-large;
+    text-align: justify;
+    margin-left: 54%;
+    margin-top: 4%;
+    color: rgb(14, 14, 14);
+    font-family: serif;
+    margin-right: 5%;
+
+}
+
+.paragraph-third {
+    color: rgb(14, 14, 14);
+    margin-left: 54%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 1.5;
+    margin-right: 5%;
+}
+
+
+
+/* } 
+.circle {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #000;
+    margin-left: 54%;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.percentage {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold; */
+.image1 {
+    height: 100vh;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701304079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image1>.box {
+    height: 200px;
+    width: 25%;
+    background-color: rgb(245, 249, 248);
+    /* margin-left: 50px;
+    margin-right: 50px;  */
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin: 30px; */
+    align-items: center;
+
+}
+
+.paragraph-4 {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 50%;
+    text-align: justify;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.paragraph-5 {
+    color: rgb(149, 239, 13);
+    font-size: x-large;
+    margin-left: 43%;
+    margin-top: -5%;
+
+}
+
+.paragraph-6 {
+    font-size: 40px;
+    margin-left: 43%;
+
+}
+
+.head-3 {
+    color: green;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-top: -15%;
+
+
+}
+
+.paragraph-7 {
+    color: black;
+    margin-left: -50%;
+    margin-right: 50%;
+    margin-top: 40%;
+    text-align: justify;
+    margin-bottom: 20%;
+}
+
+.head-4 {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(130, 214, 5);
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.paragraph-8 {
+    font-size: 40px;
+    margin-left: 31%;
+
+}
+
+.paragraph-9 {
+    font-size: 14px;
+    stop-color: rgba(120, 119, 119, 0.352);
+    text-align: justify;
+    margin-left: 48%;
+    margin-right: 20%;
+    margin-top: -5%;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+    display: flex;
+}
+
+.pic1 {
+    width: auto;
+    margin-top: 5%;
+    margin-left: 90px;
+    margin-right: -15%;
+}
+
+.pic2 {
+    height: 50%;
+    margin-top: 5%;
+}
+
+.pic3 {
+    margin-top: 5%;
+    height: 20%;
+    width: 20%;
+    margin-left: 2%;
+
+
+}
+
+.pic4 {
+    margin-left: 90px;
+    height: 220px;
+    width: 18%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.pic5 {
+    height: 220px;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 90px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.pic6 {
+    height: 19%;
+    width: 23%;
+    margin-right: 7%;
+    margin-left: -1%;
+    margin-bottom: 5%;
+
+}
+
+.pic7 {
+    height: 240px;
+    width: 235px;
+    margin-top: -5%;
+    margin-left: -3%;
+    margin-bottom: 5%;
+}
+
+.pic8 {
+    width: 40%;
+    margin-left: 90px;
+    margin-bottom: 140px;
+    margin-top: -5%;
+}
+
+.pic9 {
+    width: 45%;
+    margin-left: 82px;
+    margin-bottom: 150px;
+    margin-top: -4%;
+}
+
+.container1 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(77, 123, 7);
+    margin-top: -5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1>.box1 {
+    height: 120px;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.logo1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 100px;
+    margin-top: -20%;
+
+
+
+}
+
+.paragraph-10 {
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.paragraph-11 {
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    margin-top: 100px;
+    margin-left: -90px;
+    margin-right: 90px;
+}
